@@ -1,95 +1,91 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import SectionsDestaque from "@/components/sectionsDestaque";
+import Sections from "@/components/sections";
+import Highlight from "@/components/highlight";
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+	const projetosDestaque = [
+		{
+			title: 'Vigor',
+			subTitle: 'Subtitulo 1',
+			description: 'Descrição 1',
+			video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'SA365',
+			subTitle: 'Subtitulo 2',
+			description: 'Descrição 2',
+			video: 'https://player.vimeo.com/video/991712115?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Bounty',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712205?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Samsung',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712066?autoplay=1&muted=1&background=1'
+		}
+	]
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+	const projetos = [
+		{
+			title: 'Vetroplus',
+			subTitle: 'Subtitulo 1',
+			description: 'Descrição 1',
+			video: 'https://player.vimeo.com/video/991712305?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'HJ Cafeteria',
+			subTitle: 'Subtitulo 2',
+			description: 'Descrição 2',
+			video: 'https://player.vimeo.com/video/991712354?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Carp Brasil',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712396?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Faixa Azul',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712440?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Medpedia',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712488?autoplay=1&muted=1&background=1'
+		},
+		{
+			title: 'Royal Canin',
+			subTitle: 'Subtitulo 3',
+			description: 'Descrição 3',
+			video: 'https://player.vimeo.com/video/991712566?autoplay=1&muted=1&background=1'
+		}
+	]
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+	return (
+		<>
+			<Highlight></Highlight>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+			{projetosDestaque && projetosDestaque.map((projeto, index) => (
+				<section key={index}>
+					<SectionsDestaque title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} video={projeto.video} />
+				</section>
+			))}
+
+			{projetos && projetos.map((projeto, index) => (
+				<section key={index}>
+					<Sections title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} image={projeto.image} video={projeto.video} order={index} />
+				</section>
+			))}
+		</>
+	);
 }
