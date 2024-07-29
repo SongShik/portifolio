@@ -83,7 +83,7 @@ export default function Home() {
 
 			{projetos && projetos.map((projeto, index) => (
 				<section key={index}>
-					<Sections title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} image={projeto.image} video={projeto.video} order={index} />
+					<Sections title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} video={projeto.video} order={index} />
 				</section>
 			))}
 		</>
