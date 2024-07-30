@@ -1,5 +1,7 @@
 :root {
-
+    --color-text: #171717;
+    --color-primary: #eaeaea;
+    --color-secondary: #999;
 }
 
 html {

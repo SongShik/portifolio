@@ -8,32 +8,50 @@ export default function Home() {
 	const projetosDestaque = [
 		{
 			title: 'Vigor',
-			subTitle: 'Subtitulo 1',
-			description: 'Descrição 1',
+			subTitle: 'Unificação de sites correlacionados e multi idiomas',
+			description: `
+				<p>Atuei como Full Stack pela SA365 e tive a oportunidade de refazer do zero o site da Vigor, com a união de vários projetos em um só. </p> 
+				<p>O projeto foi dividido em 3 partes:</p>
+				<p>para o site e a área administrativa, utilizei Vue.js, Typescript e GIT. Para a API foi utilizado PHP, com Lavavel e MySQL.</p>
+			`,
 			image: vigorImage,
 			// video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1'
+			link: 'https://www.vigor.com.br'
 		},
 		{
 			title: 'SA365',
-			subTitle: 'Subtitulo 2',
-			description: 'Descrição 2',
+			subTitle: 'Reconstrução da marca para alcançar novos desafios',
+			description: `
+				<p>Fui responsável pela criação do site, colaborando estreitamente com as áreas de negócios e design para desenvolver uma solução de ponta que se destacasse no mercado. Para isso o projeto incluiu diversas animações, suporte a múltiplos idiomas e otimização para SEO.</p> 
+				<p>Utilizamos Next.js, TypeScript, GIT e CI/CD, integrando diversas bibliotecas de animação como GSAP, Swiper e Lenis. O Strapi foi adotado como CMS headless.</p>
+			`,
 			image: vigorImage,
 			// video: 'https://player.vimeo.com/video/991712115?autoplay=1&muted=1&background=1'
+			link: 'https://sa365.ag'
 		},
 		{
 			title: 'Bounty',
-			subTitle: 'Subtitulo 3',
-			description: 'Descrição 3',
+			subTitle: 'Lançamento da plataforma de gestão empresarial',
+			description: `
+				<p>Responsável pelo desenvolvimento do site, acompanhando as tendências mais recentes do mercado e fazendo um estudo de concorrentes. com foco nas melhores práticas de SEO e usabilidade para diversas plataformas.</p> 
+				<p>Tecnologias utilizadas Next.js, TypeScript, GIT e CI/CD. O Strapi foi adotado como CMS headless.</p>
+			`,
 			image: vigorImage,
 			// video: 'https://player.vimeo.com/video/991712205?autoplay=1&muted=1&background=1'
+			link: 'https://home.cartaobounty.com.br/'
 		},
 		{
 			title: 'Samsung',
-			subTitle: 'Subtitulo 3',
-			description: 'Descrição 3',
+			subTitle: 'Lading pages com identidade marcante',
+			description: `
+				<p>A Samsung é um dos principais clientes da SA365 e desde 2020 tenho oportunidade de trabalhar com a Samsung.</p> 
+				<p>Sou responsável pela criação das landing pages para praticamente todos os produtos no Brasil. Essas páginas funcionam como conteúdo adicional e são exibidas em diversos sites de varejo, como Amazon, Kabum, FastShop e Magazine Luiza.</p>
+				<p>Tecnologias utilizadas HTML, CSS, JS</p>
+			`,
 			image: vigorImage,
 			// video: 'https://player.vimeo.com/video/991712066?autoplay=1&muted=1&background=1'
-		}
+			link: 'https://www.fastshop.com.br/web/p/d/SGQN75QN800C_PRD/smart-tv-samsung-neo-qled-8k-75-polegadas-75qn800c-com-mini-led-painel-120hz-unica-conexao-dolby-atmos-e-alexa'
+		},
 	]
 
 	// const projetos = [
@@ -84,14 +102,14 @@ export default function Home() {
 				<div className="row">
 					<div className="col-md-12 text-center">
 						<h2><strong>Projetos que tive orgulho de participar</strong></h2>
-						<p>Criando valor para empresas através de projetos impactantes.</p>
+						<p>Projetos reais para para solucionar desafios de empresas reais.</p>
 					</div>
 				</div>
 			</div>
 
 			{projetosDestaque && projetosDestaque.map((projeto, index) => (
 				<section key={index}>
-					<SectionsDestaque title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} image={projeto.image} order={index} />
+					<SectionsDestaque projeto={projeto} order={index} />
 				</section>
 			))}
 
