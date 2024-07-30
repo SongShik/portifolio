@@ -6,6 +6,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    color: #171717;
+    background-color: #fafafa;
+}
+
 html.lenis,
 html.lenis body {
     height: auto;
@@ -28,7 +33,7 @@ html.lenis body {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 .cursor-pointer {
@@ -46,7 +51,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-stone-cold);
+    background-color: #E9E9E9;
     border-radius: 6px;
 }
 
@@ -68,26 +73,6 @@ section {
     border: 2px solid #E9E9E9;
     border-radius: 50%;
     mix-blend-mode: difference;
-}
-
-.cursor-cool-text{
-    position: relative;
-    left: 50%;
-}
-
-.cursor-cool-text svg{
-    width: 12px;
-    height: 12px;
-    margin-bottom: 0.1rem;
-    margin-right: 0.2rem;
-}
-
-.cursor-cool-text p{
-    width: auto;
-    height: auto;
-    color: #E9E9E9;
-    display: inline;
-    font-weight: lighter;
 }
 
 

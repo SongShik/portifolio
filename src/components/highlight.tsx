@@ -27,11 +27,11 @@ export default async function Highlight() {
                     <div className='d-flex align-items-center justify-content-center mb-3 gap-4'>
                         {logos && logos.map((logo, index) => (
                             <div className={styles.logos} key={index}>
-                                <Image src={logo.src} alt='Logo' className='img-fluid' fill></Image>
+                                <Image src={logo.src} alt='Logo' className='img-fluid' fill sizes="(max-width: 767px) 100vw, 33vw"></Image>
                             </div>
                         ))}
                     </div>
-                    <h1>Song Shik Restrepo Ohoe Vasconcellos</h1>
+                    <h1><strong>Song Shik Restrepo Ohoe Vasconcellos</strong></h1>
                     <h4>Desenvolvedor Front-end</h4>
                 </div>
             </div>

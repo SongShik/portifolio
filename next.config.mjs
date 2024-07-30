@@ -17,6 +17,14 @@ const nextConfig = {
             },
         ],
     },
+    // contentSecurityPolicy: {
+    //     directives: {
+    //       defaultSrc: ["'self'"],
+    //       frameSrc: ["https://player.vimeo.com"],
+    //     },
+    //   }
+      
+      
 };
 
 export default nextConfig;

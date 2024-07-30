@@ -6,7 +6,7 @@ export default async function Sections({ title, subTitle, description, video, im
 
     return (
         <>
-            <div className="container-fluid">
+            {/* <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-5 d-flex align-items-center offset-md-1">
                         <div>
@@ -26,7 +26,7 @@ export default async function Sections({ title, subTitle, description, video, im
                         }
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
