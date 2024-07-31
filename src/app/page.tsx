@@ -12,10 +12,10 @@ export default function Home() {
 			description: `
 				<p>Atuei como Full Stack pela SA365 e tive a oportunidade de refazer do zero o site da Vigor, com a união de vários projetos em um só. </p> 
 				<p>O projeto foi dividido em 3 partes:</p>
-				<p>para o site e a área administrativa, utilizei Vue.js, Typescript e GIT. Para a API foi utilizado PHP, com Lavavel e MySQL.</p>
+				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript e GIT. Para a API foi utilizado PHP, com Lavavel e MySQL.</p>
 			`,
-			image: vigorImage,
-			// video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1'
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1&background=1',
 			link: 'https://www.vigor.com.br'
 		},
 		{
@@ -25,8 +25,8 @@ export default function Home() {
 				<p>Fui responsável pela criação do site, colaborando estreitamente com as áreas de negócios e design para desenvolver uma solução de ponta que se destacasse no mercado. Para isso o projeto incluiu diversas animações, suporte a múltiplos idiomas e otimização para SEO.</p> 
 				<p>Utilizamos Next.js, TypeScript, GIT e CI/CD, integrando diversas bibliotecas de animação como GSAP, Swiper e Lenis. O Strapi foi adotado como CMS headless.</p>
 			`,
-			image: vigorImage,
-			// video: 'https://player.vimeo.com/video/991712115?autoplay=1&muted=1&background=1'
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712115?autoplay=1&muted=1&background=1',
 			link: 'https://sa365.ag'
 		},
 		{
@@ -36,8 +36,8 @@ export default function Home() {
 				<p>Responsável pelo desenvolvimento do site, acompanhando as tendências mais recentes do mercado e fazendo um estudo de concorrentes. com foco nas melhores práticas de SEO e usabilidade para diversas plataformas.</p> 
 				<p>Tecnologias utilizadas Next.js, TypeScript, GIT e CI/CD. O Strapi foi adotado como CMS headless.</p>
 			`,
-			image: vigorImage,
-			// video: 'https://player.vimeo.com/video/991712205?autoplay=1&muted=1&background=1'
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712205?autoplay=1&muted=1&background=1',
 			link: 'https://home.cartaobounty.com.br/'
 		},
 		{
@@ -48,50 +48,80 @@ export default function Home() {
 				<p>Sou responsável pela criação das landing pages para praticamente todos os produtos no Brasil. Essas páginas funcionam como conteúdo adicional e são exibidas em diversos sites de varejo, como Amazon, Kabum, FastShop e Magazine Luiza.</p>
 				<p>Tecnologias utilizadas HTML, CSS, JS</p>
 			`,
-			image: vigorImage,
-			// video: 'https://player.vimeo.com/video/991712066?autoplay=1&muted=1&background=1'
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712066?autoplay=1&muted=1&background=1',
 			link: 'https://www.fastshop.com.br/web/p/d/SGQN75QN800C_PRD/smart-tv-samsung-neo-qled-8k-75-polegadas-75qn800c-com-mini-led-painel-120hz-unica-conexao-dolby-atmos-e-alexa'
 		},
 	]
 
-	// const projetos = [
-	// 	{
-	// 		title: 'Vetroplus',
-	// 		subTitle: 'Subtitulo 1',
-	// 		description: 'Descrição 1',
-	// 		video: 'https://player.vimeo.com/video/991712305?autoplay=1&muted=1&background=1'
-	// 	},
-	// 	{
-	// 		title: 'HJ Cafeteria',
-	// 		subTitle: 'Subtitulo 2',
-	// 		description: 'Descrição 2',
-	// 		video: 'https://player.vimeo.com/video/991712354?autoplay=1&muted=1&background=1'
-	// 	},
-	// 	{
-	// 		title: 'Carp Brasil',
-	// 		subTitle: 'Subtitulo 3',
-	// 		description: 'Descrição 3',
-	// 		video: 'https://player.vimeo.com/video/991712396?autoplay=1&muted=1&background=1'
-	// 	},
-	// 	{
-	// 		title: 'Faixa Azul',
-	// 		subTitle: 'Subtitulo 3',
-	// 		description: 'Descrição 3',
-	// 		video: 'https://player.vimeo.com/video/991712440?autoplay=1&muted=1&background=1'
-	// 	},
-	// 	{
-	// 		title: 'Medpedia',
-	// 		subTitle: 'Subtitulo 3',
-	// 		description: 'Descrição 3',
-	// 		video: 'https://player.vimeo.com/video/991712488?autoplay=1&muted=1&background=1'
-	// 	},
-	// 	{
-	// 		title: 'Royal Canin',
-	// 		subTitle: 'Subtitulo 3',
-	// 		description: 'Descrição 3',
-	// 		video: 'https://player.vimeo.com/video/991712566?autoplay=1&muted=1&background=1'
-	// 	}
-	// ]
+	const projetos = [
+		{
+			title: 'Vetroplus',
+			subTitle: 'Desenvolvendo valor a empresa pelo site',
+			description: `
+			<p>Criação do site institucional da Vetroplus, focado em apresentar a empresa para publicos de alta renda.</p> 
+			<p>Foi utilizado a criação de um template Wordpress.</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712305?autoplay=1&muted=1&background=1',
+			link: 'https://vetropluss.com.br'
+		},
+		{
+			title: 'HJ Cafeteria',
+			subTitle: 'Lançamento da empresa para o digital',
+			description: `
+			<p>Ecomerce de cafés focado em SEO e busca por novos cliente </p> 
+			<p>Plataforma de e-commerce com integração da Loja Integrada, gestão de produtos e emissão de nota fiscal através do Bling, e entregas pelo Melhor Envio.</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712354?autoplay=1&muted=1&background=1',
+			link: 'https://www.hjcafe.com.br/'
+		},
+		{
+			title: 'Carp Brasil',
+			subTitle: 'Site institucional da ONG',
+			description: `
+			<p>O site oferece maior integração e informação para que as pessoas conheçam os projetos.</p> 
+			<p>O cliente precisava de uma solução simples e fácil de modificar por qualquer pessoa, por isso escolhemos o Wix como criador de sites.</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712396?autoplay=1&muted=1&background=1',
+			link: 'https://www.carpbrasil.org/'
+		},
+		{
+			title: 'Faixa Azul',
+			subTitle: 'Reposicionamento de marca para novos publicos',
+			description: `
+			<p>Com foco na simplificação e usabilidade os clientes podem encontrar informações detalhadas dos produtos.</p> 
+			<p>Foi utilizado Angular como framework principal</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712440?autoplay=1&muted=1&background=1',
+			link: 'https://faixaazul.com.br/'
+		},
+		{
+			title: 'Medpedia',
+			subTitle: 'A plataforma para medicos melhorarem seus conhecimentos',
+			description: `
+			<p>Melhora de perfomace e facilidade de uso</p> 
+			<p>O administrativo é por PHP e wordpress e o front é um template customizado</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712488?autoplay=1&muted=1&background=1',
+			link: 'https://www.medpedia.com.br/'
+		},
+		{
+			title: 'Royal Canin',
+			subTitle: 'Centralização de informaçõe',
+			description: `
+			<p>Site internacional que agrega todos os produtos da marca presente em todos os continentes</p> 
+			<p>Como plataforma global e unificada é utilizado SiteCore como plataforma de gerenciamento</p>
+		`,
+			// image: vigorImage,
+			video: 'https://player.vimeo.com/video/991712566?autoplay=1&muted=1&background=1',
+			link: 'https://www.royalcanin.com/br'
+		}
+	]
 
 	return (
 		<>
@@ -113,11 +143,15 @@ export default function Home() {
 				</section>
 			))}
 
-			{/* {projetos && projetos.map((projeto, index) => (
-				<section key={index}>
-					<Sections title={projeto.title} subTitle={projeto.subTitle} description={projeto.description} video={projeto.video} order={index} />
-				</section>
-			))} */}
+			<section>
+				<div className="container-fluid">
+					<div className="row">
+						{projetos && projetos.map((projeto, index) => (
+							<Sections projeto={projeto} order={index} key={index} />
+						))}
+					</div>
+				</div>
+			</section>
 		</>
 	);
 }
