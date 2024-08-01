@@ -1,3 +1,5 @@
+'use client'
+
 import styles from '@/styles/modules/sections.module.css'
 import Image from 'next/image'
 import Iframe from './utils/iframe'
@@ -17,25 +19,29 @@ interface Props {
     order: number
 }
 
-export default async function SectionsDestaque({ projeto, order }: Props) {
+export default function SectionsDestaque({ projeto, order }: Props) {
 
 
     return (
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 d-flex align-items-center offset-md-1">
+                    <div className="col-md-6 col-lg-4 d-flex align-items-center ps-lg-5 text-center text-md-start mb-3 mb-md-0">
                         <div>
                             <h2><strong>{projeto.title}</strong></h2>
                             <h4>{projeto.subTitle}</h4>
-                            <div dangerouslySetInnerHTML={{__html:projeto.description}}></div>
-                            {projeto.link && <a href={projeto.link} className='btn btn-outiline-primary' target='_blank'>Veja Mais</a>}
+                            <div dangerouslySetInnerHTML={{ __html: projeto.description }}></div>
+                            {projeto.link && <a href={projeto.link} className='btn btn-primary' target='_blank'>Veja Mais</a>}
                         </div>
                     </div>
-                    <div className={`col-md-7 d-flex align-items-center ${order % 2 == 0 ? 'order-md-first' : ''} `}>
+                    <div className={`col-md-6 col-lg-7 d-flex align-items-center ${order % 2 == 0 ? 'order-md-first' : 'offset-md-1'} `}>
                         {projeto.video &&
-                            <div className={styles.containerIframe}>
-                                <iframe src={projeto.video}></iframe>
+                            <div className={styles.border}>
+                                <div className={styles.containerIframe}>
+                                    <Suspense fallback={"Carregando..."}>
+                                        <iframe src={projeto.video}></iframe>
+                                    </Suspense>
+                                </div>
                             </div>
                         }
                         {projeto.image &&

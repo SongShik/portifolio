@@ -30,7 +30,7 @@ export default async function Sections({ projeto, order }: Props) {
                     {projeto.image &&
                         <Image src={projeto.image.src} className='img-fluid d-block m-auto w-100' width={projeto.image.width} height={projeto.image.height} alt={projeto.title} />
                     }
-                    <div className='px-3 pt-3 pb-2'>
+                    <div className='px-md-3 pt-3 pb-2'>
                         <h2 className=''>{projeto.title}</h2>
                         <h5>{projeto.subTitle}</h5>
                         <div dangerouslySetInnerHTML={{ __html: projeto.description }}></div>

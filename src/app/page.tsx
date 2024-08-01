@@ -12,7 +12,7 @@ export default function Home() {
 			description: `
 				<p>Atuei como Full Stack pela SA365 e tive a oportunidade de refazer do zero o site da Vigor, com a união de vários projetos em um só. </p> 
 				<p>O projeto foi dividido em 3 partes:</p>
-				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript e GIT. Para a API foi utilizado PHP, com Lavavel e MySQL.</p>
+				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript, GIT e Figma. Para a API foi utilizado PHP, com Lavavel e MySQL.</p>
 			`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1&background=1',
@@ -60,7 +60,7 @@ export default function Home() {
 			subTitle: 'Desenvolvendo valor a empresa pelo site',
 			description: `
 			<p>Criação do site institucional da Vetroplus, focado em apresentar a empresa para publicos de alta renda.</p> 
-			<p>Foi utilizado a criação de um template Wordpress.</p>
+			<p>Foi utilizado a criação de um template Wordpress e AWS.</p>
 		`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712305?autoplay=1&muted=1&background=1',

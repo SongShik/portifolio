@@ -1,4 +1,20 @@
 /** @type {import('next').NextConfig} */
+
+const cspHeader = `
+    default-src 'self';
+    script-src 'self' 'unsafe-eval' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' blob: data:;
+    font-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+    frame-ancestors 'none';
+    frame-src 'self' https://player.vimeo.com;
+    connect-src 'self';
+    upgrade-insecure-requests;
+`
+
 const nextConfig = {
     eslint: {
         // Warning: This allows production builds to successfully complete even if
@@ -13,18 +29,23 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'admin.novosite.dev-sa365.com.br',
+                hostname: 'songshik.vercel.app',
             },
         ],
     },
-    // contentSecurityPolicy: {
-    //     directives: {
-    //       defaultSrc: ["'self'"],
-    //       frameSrc: ["https://player.vimeo.com"],
-    //     },
-    //   }
-      
-      
+    async headers() {
+        return [
+            {
+                source: '/(.*)',
+                headers: [
+                    {
+                        key: 'Content-Security-Policy',
+                        value: cspHeader.replace(/\n/g, ''),
+                    },
+                ],
+            },
+        ]
+    },
 };
 
 export default nextConfig;
