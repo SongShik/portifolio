@@ -1,5 +1,4 @@
 /* sobrescrevendo o boostrap */
-h1,
 h2,
 h3,
 h4,
@@ -26,9 +25,9 @@ p{
 }
 
 .btn-primary:hover,
-.btn-outline-primary:active{
-    background-color: #383838;
-    border-color: var(--color-text);
+.btn-primary:active{
+    background-color: #383838 !important;
+    border-color: var(--color-text) !important;
 }
 
 

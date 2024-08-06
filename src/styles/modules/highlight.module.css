@@ -12,3 +12,12 @@
     height: 70px;
     position: relative;
 }
+
+@media (max-width: 767.98px) {
+    .logos{
+        width: 25px;
+        height: 25px;
+        position: relative;
+    }
+
+}

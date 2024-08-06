@@ -1,3 +1,5 @@
+"use client";
+
 import reactLogo from '../../public/assets/img/tecnologias/React.png'
 import gitogo from '../../public/assets/img/tecnologias/Git.png'
 import javaScriptLogo from '../../public/assets/img/tecnologias/JavaScript.png'
@@ -9,13 +11,34 @@ import nextLogo from '../../public/assets/img/tecnologias/Next.png'
 
 import styles from '../styles/modules/highlight.module.css'
 import Image from 'next/image'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
-export default async function Highlight() {
+import { gsap } from "gsap";
+import { useGSAP } from '@gsap/react';
+import SplitType from 'split-type'
 
-	// useEffect(() => {
-	// 	window.location.replace("/assets/pdf/a.pdf");
-	// })
+export default function Highlight() {
+    const animationText = useRef(null);
+
+
+    useGSAP(() => {
+        const tl = gsap.timeline();
+
+        const animateText = (ref: any, options: any) => {
+            if (ref.current) {
+                const text = new SplitType(ref.current, { types: 'chars,words' });
+                tl.from(text.chars, options);
+            }
+        };
+
+        animateText(animationText, {
+            opacity: 0,
+            duration: 0.6,
+            delay: 0.6,
+            ease: "power1.out",
+            stagger: { amount: 0.6 },
+        });
+    });
 
     const logos = [
         vueLogo,
@@ -37,7 +60,7 @@ export default async function Highlight() {
                             </div>
                         ))}
                     </div>
-                    <h1><strong>Song Shik Restrepo Ohoe Vasconcellos</strong></h1>
+                    <h1 ref={animationText} className='color-text'><strong>Song Shik Restrepo Ohoe Vasconcellos</strong></h1>
                     <h4>Desenvolvedor Front-end</h4>
                     <div className='mt-3'>
                         {/* <a href="/assets/pdf/a.pdf" className='btn btn-primary'>Curriculo</a> */}
