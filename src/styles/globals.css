@@ -46,14 +46,13 @@ section {
     cursor: none;
 }
 
-
 /*barra de rolagem */
 ::-webkit-scrollbar {
     width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #E9E9E9;
+    background-color: var(--color-text);
     border-radius: 6px;
 }
 
@@ -77,14 +76,46 @@ section {
     mix-blend-mode: difference;
 }
 
+.color-text{
+    color: var(--color-text);
+}
 
+.color-primary{
+    color: var(--color-primary) !important;
+    background: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
+
+footer{
+    background-color: var(--color-text);
+    padding: 3rem 0;
+    min-height: 100vh;
+    color: var(--color-primary);
+}
+
+footer h1{
+    background: -webkit-linear-gradient(180deg, #eaeaea, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+}
+
+footer p{
+    color: var(--color-primary);
+}
 
 @media (max-width: 767.98px) {
-    section {
+    section,
+    footer {
         padding: 1.5rem 0;
     }
 
     .cursor-cool{
         display: none;
+    }
+
+    footer h1{
+        font-size: 17vw;
     }
 }

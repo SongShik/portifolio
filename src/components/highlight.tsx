@@ -6,10 +6,16 @@ import typescriptLogo from '../../public/assets/img/tecnologias/Typescript.png'
 import vueLogo from '../../public/assets/img/tecnologias/Vue.png'
 import nextLogo from '../../public/assets/img/tecnologias/Next.png'
 
+
 import styles from '../styles/modules/highlight.module.css'
 import Image from 'next/image'
+import { useEffect } from 'react'
 
 export default async function Highlight() {
+
+	// useEffect(() => {
+	// 	window.location.replace("/assets/pdf/a.pdf");
+	// })
 
     const logos = [
         vueLogo,
@@ -33,6 +39,10 @@ export default async function Highlight() {
                     </div>
                     <h1><strong>Song Shik Restrepo Ohoe Vasconcellos</strong></h1>
                     <h4>Desenvolvedor Front-end</h4>
+                    <div className='mt-3'>
+                        {/* <a href="/assets/pdf/a.pdf" className='btn btn-primary'>Curriculo</a> */}
+                        <a href="#footer" className='btn btn-primary ms-3'>Habilidades/Contato</a>
+                    </div>
                 </div>
             </div>
         </>
