@@ -37,6 +37,9 @@ export default async function Footer() {
                             <li className="color-primary">Gsap</li>
                             <li className="color-primary">Redux</li>
                             <li className="color-primary">Microfrontend</li>
+                            <li className="color-primary">PhotoShop</li>
+                            <li className="color-primary">Adobe XD</li>
+                            <li className="color-primary">Figma</li>
                         </ul>
                     </div>
                     <div className="col col-md-3">
