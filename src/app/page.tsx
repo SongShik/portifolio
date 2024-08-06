@@ -2,6 +2,7 @@ import SectionsDestaque from "@/components/sectionsDestaque";
 import Sections from "@/components/sections";
 import Highlight from "@/components/highlight";
 import vigorImage from '../../public/assets/img/SA365.png';
+import Footer from "@/components/footer";
 
 export default function Home() {
 
@@ -152,6 +153,8 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+
+			<Footer></Footer>
 		</>
 	);
 }
