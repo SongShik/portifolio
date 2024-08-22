@@ -39,6 +39,7 @@ export default async function Footer() {
                             <li className="color-primary">Microfrontend</li>
                             <li className="color-primary">PhotoShop</li>
                             <li className="color-primary">Adobe XD</li>
+                            <li className="color-primary">SEO</li>
                             <li className="color-primary">Figma</li>
                         </ul>
                     </div>
@@ -47,23 +48,24 @@ export default async function Footer() {
                         <ul>
                             <li className="color-primary">Node</li>
                             <li className="color-primary">PHP</li>
-                            <li className="color-primary">Docker</li>
                             <li className="color-primary">MySQL</li>
                             <li className="color-primary">MongoDB</li>
                             <li className="color-primary">PostgreSQL</li>
                             <li className="color-primary">JSON</li>
                             <li className="color-primary">APIs/REST</li>
+                            <li className="color-primary">GraphQL</li>
                         </ul>
                     </div>
                     <div className="col col-md-3">
                         <h5 className="color-primary mt-3"><strong>DevOps:</strong></h5>
                         <ul>
-                            <li className="color-primary"> CI/CD</li>
+                            <li className="color-primary">CI/CD</li>
                             <li className="color-primary">AWS</li>
                             <li className="color-primary">Azure</li>
                             <li className="color-primary">Docker</li>
                             <li className="color-primary">Swagger</li>
                             <li className="color-primary">Jest</li>
+                            <li className="color-primary">Cypress</li>
                             <li className="color-primary">npm</li>
                             <li className="color-primary">Git</li>
                             <li className="color-primary">Git flow</li>
@@ -75,7 +77,9 @@ export default async function Footer() {
                         <ul>
                             <li className="color-primary">Capacidade de Resolução de Problemas</li>
                             <li className="color-primary">Habilidades de Liderança</li>
-                            <li className="color-primary">Comunicação</li>
+                            <li className="color-primary">Boa comunicação, tanto verbal quanto escrita</li>
+                            <li className="color-primary">Trabalho em equipe e colaboração</li>
+                            <li className="color-primary">Facilidade de resolução de problemas</li>
                         </ul>
                     </div>
                 </div>
