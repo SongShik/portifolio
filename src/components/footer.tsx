@@ -30,8 +30,10 @@ export default async function Footer() {
                             <li className="color-primary">React</li>
                             <li className="color-primary">TypeScript</li>
                             <li className="color-primary">JavaScript</li>
+                            <li className="color-primary">Angular</li>
                             <li className="color-primary">Vue</li>
                             <li className="color-primary">HTML</li>
+                            <li className="color-primary">CSS</li>
                             <li className="color-primary">Sass</li>
                             <li className="color-primary">Boostrap</li>
                             <li className="color-primary">Gsap</li>
@@ -61,7 +63,6 @@ export default async function Footer() {
                         <ul>
                             <li className="color-primary">CI/CD</li>
                             <li className="color-primary">AWS</li>
-                            <li className="color-primary">Azure</li>
                             <li className="color-primary">Docker</li>
                             <li className="color-primary">Swagger</li>
                             <li className="color-primary">Jest</li>
