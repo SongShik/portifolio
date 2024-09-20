@@ -33,18 +33,18 @@ export default async function Footer() {
 
                             <li className="color-primary mt-3">TypeScript</li>
                             <li className="color-primary">JavaScript</li>
-                            <li className="color-primary">HTML</li>
-                            <li className="color-primary">CSS</li>
+                            <li className="color-primary">HTML/ CSS</li>
 
                             <li className="color-primary mt-3">Tailwindcss</li>
                             <li className="color-primary">Styled-components</li>
                             <li className="color-primary">Sass</li>
                             <li className="color-primary">Boostrap</li>
 
-                            <li className="color-primary mt-3">PhotoShop</li>
+                            <li className="color-primary mt-3">Photoshop</li>
                             <li className="color-primary">Adobe XD</li>
                             <li className="color-primary">SEO</li>
                             <li className="color-primary">Figma</li>
+                            <li className="color-primary">UX/UI</li>
 
                             <li className="color-primary mt-3">Redux</li>
                             <li className="color-primary">Zustand</li>
@@ -93,6 +93,14 @@ export default async function Footer() {
                             <li className="color-primary">Boa comunicação, tanto verbal quanto escrita</li>
                             <li className="color-primary">Trabalho em equipe e colaboração</li>
                             <li className="color-primary">Facilidade de resolução de problemas</li>
+                        </ul>
+                        <h5 className="color-primary mt-3 mt-md-5"><strong>Padrões de projeto:</strong></h5>
+                        <ul>
+                            <li className="color-primary">Scrum</li>
+                            <li className="color-primary">TDD</li>
+                            <li className="color-primary">SOLID</li>
+                            <li className="color-primary">Clean Code</li>
+                            <li className="color-primary">Pixel perfect</li>
                         </ul>
                     </div>
                 </div>
