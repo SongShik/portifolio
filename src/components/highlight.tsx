@@ -5,6 +5,7 @@ import nodeLogo from '../../public/assets/img/tecnologias/Node.png'
 import typescriptLogo from '../../public/assets/img/tecnologias/Typescript.png'
 import vueLogo from '../../public/assets/img/tecnologias/Vue.png'
 import nextLogo from '../../public/assets/img/tecnologias/Next.png'
+import awsLogo from '../../public/assets/img/tecnologias/aws.png'
 
 
 import styles from '../styles/modules/highlight.module.css'
@@ -24,7 +25,8 @@ export default async function Highlight() {
         nextLogo,
         typescriptLogo,
         javaScriptLogo,
-        gitogo,
+        // gitogo,
+        awsLogo
     ]
     return (
         <>

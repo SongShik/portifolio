@@ -28,21 +28,28 @@ export default async function Footer() {
                         <ul>
                             <li className="color-primary">Next</li>
                             <li className="color-primary">React</li>
-                            <li className="color-primary">TypeScript</li>
-                            <li className="color-primary">JavaScript</li>
                             <li className="color-primary">Angular</li>
                             <li className="color-primary">Vue</li>
+
+                            <li className="color-primary mt-3">TypeScript</li>
+                            <li className="color-primary">JavaScript</li>
                             <li className="color-primary">HTML</li>
                             <li className="color-primary">CSS</li>
+
+                            <li className="color-primary mt-3">Tailwindcss</li>
+                            <li className="color-primary">Styled-components</li>
                             <li className="color-primary">Sass</li>
                             <li className="color-primary">Boostrap</li>
-                            <li className="color-primary">Gsap</li>
-                            <li className="color-primary">Redux</li>
-                            <li className="color-primary">Microfrontend</li>
-                            <li className="color-primary">PhotoShop</li>
+
+                            <li className="color-primary mt-3">PhotoShop</li>
                             <li className="color-primary">Adobe XD</li>
                             <li className="color-primary">SEO</li>
                             <li className="color-primary">Figma</li>
+
+                            <li className="color-primary mt-3">Redux</li>
+                            <li className="color-primary">Zustand</li>
+                            <li className="color-primary">Microfrontend</li>
+
                         </ul>
                     </div>
                     <div className="col col-md-3">
@@ -50,10 +57,13 @@ export default async function Footer() {
                         <ul>
                             <li className="color-primary">Node</li>
                             <li className="color-primary">PHP</li>
-                            <li className="color-primary">MySQL</li>
+                            <li className="color-primary">Python</li>
+
+                            <li className="color-primary mt-3">MySQL</li>
                             <li className="color-primary">MongoDB</li>
                             <li className="color-primary">PostgreSQL</li>
-                            <li className="color-primary">JSON</li>
+
+                            <li className="color-primary mt-3">JSON</li>
                             <li className="color-primary">APIs/REST</li>
                             <li className="color-primary">GraphQL</li>
                         </ul>
@@ -62,15 +72,17 @@ export default async function Footer() {
                         <h5 className="color-primary mt-3"><strong>DevOps:</strong></h5>
                         <ul>
                             <li className="color-primary">CI/CD</li>
-                            <li className="color-primary">AWS</li>
+                            <li className="color-primary">AWS (EC2, S3, VPC, RDS...) </li>
                             <li className="color-primary">Docker</li>
-                            <li className="color-primary">Swagger</li>
+                            <li className="color-primary">GitHub Actions</li>
+
+                            <li className="color-primary mt-3">Swagger</li>
                             <li className="color-primary">Jest</li>
                             <li className="color-primary">Cypress</li>
-                            <li className="color-primary">npm</li>
+
+                            <li className="color-primary mt-3">npm</li>
                             <li className="color-primary">Git</li>
                             <li className="color-primary">Git flow</li>
-                            <li className="color-primary">GitHub Actions</li>
                         </ul>
                     </div>
                     <div className="col col-md-3">

@@ -7,6 +7,7 @@ import { Inter, Roboto } from "next/font/google";
 import "../styles/globals.css";
 import SmoothScroll from '@/components/utils/smoothScroll';
 import CursorCool from '@/components/utils/cursorCool';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 
 const roboto = Roboto({
@@ -31,6 +32,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="pt-br" suppressHydrationWarning={true}>
+			<head>
+				<GoogleTagManager gtmId="GTM-PBWBTR6K" />
+			</head>
 			<body className={inter.className}>
 				<SmoothScroll>
 					{children}
