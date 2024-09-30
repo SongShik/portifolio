@@ -48,6 +48,8 @@ export default async function Footer() {
 
                             <li className="color-primary mt-3">Redux</li>
                             <li className="color-primary">Zustand</li>
+                            <li className="color-primary">Pinia</li>
+                            <li className="color-primary">Vuex</li>
                             <li className="color-primary">Microfrontend</li>
 
                         </ul>
