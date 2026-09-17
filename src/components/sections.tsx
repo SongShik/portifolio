@@ -35,7 +35,7 @@ export default async function Sections({ projeto, order }: Props) {
                         <h5>{projeto.subTitle}</h5>
                         <div dangerouslySetInnerHTML={{ __html: projeto.description }}></div>
                     </div>
-                    {projeto.link && <a href={projeto.link} className='btn btn-primary' target='_blank'>Veja Mais</a>}
+                    {projeto.link && <a href={projeto.link} className='btn btn-primary' target='_blank'>Acesse o site</a>}
                 </div>
             </div >
         </>

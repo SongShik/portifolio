@@ -30,6 +30,7 @@ export default async function Footer() {
                             <li className="color-primary">React</li>
                             <li className="color-primary">Angular</li>
                             <li className="color-primary">Vue</li>
+                            <li className="color-primary">SSR / SSG / ISR</li>
 
                             <li className="color-primary mt-3">TypeScript</li>
                             <li className="color-primary">JavaScript</li>
@@ -51,7 +52,6 @@ export default async function Footer() {
                             <li className="color-primary">Pinia</li>
                             <li className="color-primary">Vuex</li>
                             <li className="color-primary">Microfrontend</li>
-
                         </ul>
                     </div>
                     <div className="col col-md-3">
@@ -68,6 +68,15 @@ export default async function Footer() {
                             <li className="color-primary mt-3">JSON</li>
                             <li className="color-primary">APIs/REST</li>
                             <li className="color-primary">GraphQL</li>
+                        </ul>
+                        <h5 className="color-primary mt-3"><strong>Liderança técnica:</strong></h5>
+                        <ul>
+                            <li className="color-primary">Scrum</li>
+                            <li className="color-primary">Definição de arquitetura</li>
+                            <li className="color-primary">Decisões técnicas</li>
+                            <li className="color-primary">Code review</li>
+                            <li className="color-primary">Mentoria</li>
+                            <li className="color-primary">Desenvolvimento de equipes</li>
                         </ul>
                     </div>
                     <div className="col col-md-3">

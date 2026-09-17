@@ -40,7 +40,7 @@ export default async function Highlight() {
                         ))}
                     </div>
                     <h1><strong>Song Shik Restrepo Ohoe Vasconcellos</strong></h1>
-                    <h4>Desenvolvedor Front-end</h4>
+                    <h4>Software Engineer | Front-end Senior | Tech Lead</h4>
                     <div className='mt-3'>
                         {/* <a href="/assets/pdf/a.pdf" className='btn btn-primary'>Curriculo</a> */}
                         <a href="#footer" className='btn btn-primary ms-3'>Habilidades/Contato</a>

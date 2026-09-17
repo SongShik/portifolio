@@ -31,7 +31,7 @@ export default function SectionsDestaque({ projeto, order }: Props) {
                             <h2><strong>{projeto.title}</strong></h2>
                             <h4>{projeto.subTitle}</h4>
                             <div dangerouslySetInnerHTML={{ __html: projeto.description }}></div>
-                            {projeto.link && <a href={projeto.link} className='btn btn-primary' target='_blank'>Veja Mais</a>}
+                            {projeto.link && <a href={projeto.link} className='btn btn-primary' target='_blank'>Acesse o site</a>}
                         </div>
                     </div>
                     <div className={`col-md-6 col-lg-7 d-flex align-items-center ${order % 2 == 0 ? 'order-md-first' : 'offset-md-1'} `}>

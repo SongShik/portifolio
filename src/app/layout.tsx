@@ -21,8 +21,8 @@ const roboto = Roboto({
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Portfólio",
-	description: "Confira meus projetos e entre em contato comigo.",
+	title: "Song Shik | Senior Front-end Developer & Tech Lead",
+	description: "Song Shik é desenvolvedor de software com 9 anos de experiência em desenvolvimento web, especializado em React, Next.js, TypeScript e liderança técnica.",
 };
 
 export default function RootLayout({
