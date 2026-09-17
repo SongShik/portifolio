@@ -26,7 +26,7 @@ export default async function Footer() {
                     <div className="col col-md-3">
                         <h5 className="color-primary mt-3"><strong>Front-end:</strong></h5>
                         <ul>
-                            <li className="color-primary">Next</li>
+                            <li className="color-primary">Next.js</li>
                             <li className="color-primary">React</li>
                             <li className="color-primary">Angular</li>
                             <li className="color-primary">Vue</li>
@@ -72,6 +72,7 @@ export default async function Footer() {
                         <h5 className="color-primary mt-3"><strong>Liderança técnica:</strong></h5>
                         <ul>
                             <li className="color-primary">Scrum</li>
+                            <li className="color-primary">Metodologia ágil</li>
                             <li className="color-primary">Definição de arquitetura</li>
                             <li className="color-primary">Decisões técnicas</li>
                             <li className="color-primary">Code review</li>
@@ -107,7 +108,6 @@ export default async function Footer() {
                         </ul>
                         <h5 className="color-primary mt-3 mt-md-5"><strong>Padrões de projeto:</strong></h5>
                         <ul>
-                            <li className="color-primary">Scrum</li>
                             <li className="color-primary">TDD</li>
                             <li className="color-primary">SOLID</li>
                             <li className="color-primary">Clean Code</li>

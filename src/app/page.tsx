@@ -13,7 +13,7 @@ export default function Home() {
 			subTitle: 'Unificação de sites correlacionados e multi idiomas',
 			description: `
 				<p>Atuei como desenvolvedor Full Stack e na liderança técnica durante a unificação dos sites das diferentes marcas da Vigor, como parte do novo posicionamento digital da empresa.</p>
-				<p>Tive a oportunidade de refazer do zero o site da Vigor, participando da evolução e as decisões tecnição do projeto.</p> 
+				<p>Tive a oportunidade de refazer do zero o site da Vigor, participando da evolução e as decisões técnicas do projeto.</p> 
 				<p>O projeto foi dividido em 3 partes:</p>
 				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript, GIT e Figma. Para o back end e  API foi utilizado PHP, com Laravel e MySQL.</p>
 			`,
@@ -23,11 +23,11 @@ export default function Home() {
 		},
 		{
 			title: 'Porto Seguro',
-			subTitle: 'Contrução do projeto Open Insurance',
+			subTitle: 'Construção do projeto Open Insurance',
 			description: `
-				<p>Atuei na liderança técnica para a implementação e criação do projeto, para integrar a Porto Seguro com o sistema Open Insurance Brasil</p>
-				<p>Trabalhei em conjunto com o desenvolvedores, negócio e design para definir e implementar a jornada em diferentes plataformas.</p>
-				<p>A solução utilizou com Next.js, TypeScript, NodeJs, AWS, Java, Jest, GIT e CI/CD.</p>
+				<p>Atuei na liderança técnica para a implementação e criação do projeto, para integrar a Porto Seguro com o sistema Open Insurance Brasil.</p>
+				<p>Trabalhei em conjunto com os desenvolvedores, negócio e design para definir e implementar a jornada em diferentes plataformas.</p>
+				<p>A solução utilizou Next.js, TypeScript, Node, AWS, Java, Jest, GIT e CI/CD.</p>
 			`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/1227795822?autoplay=1&muted=1&background=1',
@@ -38,7 +38,7 @@ export default function Home() {
 			subTitle: 'Landing pages com identidade marcante',
 			description: `
 				<p>Atuei para a Samsung entre 2020 e 2024, desenvolvendo landing pages para produtos da marca no Brasil.</p> 
-				<p>Fui responsável pela criação de todas as landing pages para praticamente todos os produtos no Brasil. Essas páginas funcionam como conteúdo adicional e são exibidas em diversos sites de varejo como Amazon, Kabum, FastShop, Americanas, Magazine Luiza e Mercado livre.</p>
+				<p>Fui responsável pela criação de todas as landing pages para praticamente todos os produtos no Brasil. Essas páginas funcionam como conteúdo adicional e são exibidas em diversos sites de varejo como Amazon, Kabum, FastShop, Americanas, Magazine Luiza e Mercado Livre.</p>
 				<p>O desenvolvimento foi realizado utilizando HTML, CSS e JavaScript.</p>
 			`,
 			// image: vigorImage,
@@ -64,7 +64,7 @@ export default function Home() {
 			subTitle: 'Reposicionamento de marca para novos públicos',
 			description: `
 			<p>Com foco na simplificação e usabilidade os clientes podem encontrar informações detalhadas dos produtos.</p> 
-			<p>Foi utilizado Angular como framework principal</p>
+			<p>Foi utilizado Angular como framework principal.</p>
 		`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712440?autoplay=1&muted=1&background=1',
@@ -74,7 +74,7 @@ export default function Home() {
 			title: 'Royal Canin',
 			subTitle: 'Centralização de informações',
 			description: `
-			<p>Site internacional que agrega todos os produtos da marca presente em todos os continentes</p> 
+			<p>Site internacional que agrega todos os produtos da marca presente em todos os continentes.</p> 
 			<p>Por se tratar de uma plataforma global e unificada, a solução utiliza Sitecore como plataforma de CMS.</p>
 		`,
 			// image: vigorImage,
@@ -85,8 +85,8 @@ export default function Home() {
 			title: 'Medpedia',
 			subTitle: 'A plataforma para medicos melhorarem seus conhecimentos',
 			description: `
-			<p>Pude atuar na liderança tecnica e escolhas de conteudos para a plataforma</p> 
-			<p>O administrativo é utilizado PHP, para o front end é um template customizado wordpress</p>
+			<p>Pude atuar na liderança técnica e escolhas de conteudos para a plataforma.</p> 
+			<p>O administrativo utiliza PHP, para o front end é um template customizado wordpress.</p>
 		`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712488?autoplay=1&muted=1&background=1',
@@ -97,7 +97,7 @@ export default function Home() {
 			subTitle: 'Desenvolvendo valor a empresa pelo digital',
 			description: `
 			<p>Criação do site institucional da Vetroplus, focado em apresentar a empresa para públicos de alta renda.</p> 
-			<p>Foi utilizado a criação de um template Wordpress com React e PHP.</p>
+			<p>Foi criado um template Wordpress com React e PHP.</p>
 		`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712305?autoplay=1&muted=1&background=1',
@@ -107,7 +107,7 @@ export default function Home() {
 			title: 'HJ Cafeteria',
 			subTitle: 'Lançamento da empresa para o digital',
 			description: `
-			<p>E-commerce de cafés focado em SEO e aquisição por novos cliente </p> 
+			<p>E-commerce de cafés focado em SEO e aquisição por novos clientes.</p> 
 			<p>A Loja Integrada foi utilizada como plataforma de e-commerce e gestão de produtos. Para emissão de nota fiscal através do Bling, e entregas pelo Melhor Envio.</p>
 		`,
 			// image: vigorImage,
@@ -130,7 +130,7 @@ export default function Home() {
 			subTitle: 'Site institucional da ONG',
 			description: `
 			<p>O site oferece maior integração e informação para que as pessoas conheçam os projetos.</p> 
-			<p>O cliente precisava de uma solução simples e fácil de manutenção sem conhecimento tecnico, por isso escolhi o Wix como criador de sites e gerenciador de contúdo.</p>
+			<p>O cliente precisava de uma solução simples e fácil de manutenção sem conhecimento técnico, por isso escolhi o Wix como criador de sites e gerenciador de conteúdo.</p>
 		`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712396?autoplay=1&muted=1&background=1',
