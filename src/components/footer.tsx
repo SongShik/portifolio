@@ -58,8 +58,10 @@ export default async function Footer() {
                         <h5 className="color-primary mt-3"><strong>Back-end:</strong></h5>
                         <ul>
                             <li className="color-primary">Node</li>
+                            <li className="color-primary">Java</li>
                             <li className="color-primary">PHP</li>
                             <li className="color-primary">Python</li>
+                            <li className="color-primary">Spring Boot</li>
 
                             <li className="color-primary mt-3">MySQL</li>
                             <li className="color-primary">MongoDB</li>
