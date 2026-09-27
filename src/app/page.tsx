@@ -15,7 +15,7 @@ export default function Home() {
 				<p>Atuei como desenvolvedor Full Stack e na liderança técnica durante a unificação dos sites das diferentes marcas da Vigor, como parte do novo posicionamento digital da empresa.</p>
 				<p>Tive a oportunidade de refazer do zero o site da Vigor, participando da evolução e as decisões técnicas do projeto.</p> 
 				<p>O projeto foi dividido em 3 partes:</p>
-				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript, GIT e Figma. Para o back end e  API foi utilizado PHP, com Laravel e MySQL.</p>
+				<p>Para o site e a área administrativa, utilizei Vue.js, Typescript, GIT e Figma. Para o back end e  API foi utilizado Java, com Spring Boot e MySQL.</p>
 			`,
 			// image: vigorImage,
 			video: 'https://player.vimeo.com/video/991712252?autoplay=1&muted=1&background=1',
